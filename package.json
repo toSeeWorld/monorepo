@@ -2,7 +2,7 @@
   "name": "root",
   "version": "1.0.7",
   "description": "",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "lerna publish"
