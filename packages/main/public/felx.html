@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<style>
+#main {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: flex-start; /* Safari 7.0+ */
+    display: flex;
+	flex-direction: row;
+    align-items: flex-start;
+    /* flex-basis: 100px; */
+}
+
+#main div {
+    /* -webkit-flex: 1; */
+    /* flex: 1; */
+    
+    /* width: 100px; */
+    flex-basis: 0;
+    /* width: 200px; */
+}
+
+#myBlueDiv {
+    /* -webkit-align-self: center; */
+    /* align-self: center; */
+    flex-basis: 0 !important;
+}
+</style>
+</head>
+<body>
+
+<div id="main">
+  <div style="background-color:coral;">红色</div>
+  <div style="background-color:lightblue;" id="myBlueDiv">蓝色</div>  
+  <div style="background-color:lightgreen;">带有更多内容的绿色 div</div>
+</div>
+
+</body>
+</html>
