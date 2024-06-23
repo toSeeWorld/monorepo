@@ -6,7 +6,6 @@ const routes = [
   { path: '/micro-vue', component: App },
   // { path:'/childone',component:App}
 ]
-console.log('hhh')
 Vue.use(Vuerouter)
 const router = new Vuerouter({
     mode:'history',
