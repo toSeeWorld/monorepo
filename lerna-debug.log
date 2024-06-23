@@ -1,0 +1,11 @@
+19 error Error: Command failed with exit code 1: git remote update
+19 error fatal: unable to access 'https://github.com/toSeeWorld/monorepo.git/': Failed to connect to github.com port 443: Timed out
+19 error error: Could not fetch origin
+19 error Fetching origin
+19 error     at makeError (C:\Users\Sun_Dj\monorepo\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+19 error     at module.exports.sync (C:\Users\Sun_Dj\monorepo\node_modules\lerna\node_modules\execa\index.js:186:17)
+19 error     at Object.execSync (C:\Users\Sun_Dj\monorepo\node_modules\lerna\dist\index.js:142:31)
+19 error     at updateRemote (C:\Users\Sun_Dj\monorepo\node_modules\lerna\dist\index.js:7784:18)
+19 error     at isBehindUpstream (C:\Users\Sun_Dj\monorepo\node_modules\lerna\dist\index.js:7774:3)
+19 error     at VersionCommand.initialize (C:\Users\Sun_Dj\monorepo\node_modules\lerna\dist\index.js:8065:57)
+19 error     at VersionCommand.runCommand (C:\Users\Sun_Dj\monorepo\node_modules\lerna\dist\index.js:1861:36)
