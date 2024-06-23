@@ -1,5 +1,5 @@
 {
-  "name": "main",
+  "name": "@dingjia/main",
   "version": "0.0.2-alpha.0",
   "private": false,
   "scripts": {
@@ -46,5 +46,5 @@
     "> 1%",
     "last 2 versions"
   ],
-  "gitHead": "6a56fe1da5ba99e5b6d8136c90206fdd203bf78c"
+  "gitHead": "540c87c1f825577e04b3cec0fbef463dc41631b0"
 }
