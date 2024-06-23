@@ -1,5 +1,5 @@
 {
-  "name": "@dingjia/monorepo",
+  "name": "root",
   "version": "1.0.7",
   "description": "",
   "main": "index.js",
