@@ -46,6 +46,7 @@ const fetch = () => {
 };
 let promises = Array.from({ length: 10 }, () => fetch);
 const startDate = Date.now();
+console.log('chagne')
 console.time("times");
 limitPromise(promises, 4).then(
   () => {
