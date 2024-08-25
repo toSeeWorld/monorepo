@@ -6,6 +6,7 @@ import routes from './router';
 const render = (props) => {
   const { container, baseRoute } = props
   const app = createApp(App)
+  console.log('hhhs')
   const router = createRouter({
     history: createWebHistory(baseRoute),
     routes
