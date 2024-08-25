@@ -1,6 +1,6 @@
 {
   "name": "@dingjia/childone",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service serve",
@@ -48,5 +48,5 @@
     "> 1%",
     "last 2 versions"
   ],
-  "gitHead": "5ead3f36bee0b26e7e12512ccdbf1866868002c4"
+  "gitHead": "aed3dd2103f40b12c71e1a2fcfebd9d1bae1b647"
 }
