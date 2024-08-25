@@ -5,11 +5,12 @@ import Helloworld from '../components/HelloWorld.vue'
 import NotFound404 from '../components/404.vue'
 import Home from '../components/Home.vue'
 import Layout from '../components/Layout.vue'
+import Login from '../components/Login.vue'
 // Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        component: Layout,
+        component: Login,
         children: [
             {
                 path: 'hello',
@@ -21,6 +22,7 @@ const routes = [
         path: '/home',
         component: Home
     },
+
     {
         path: '/vueApp',
         component: Vue1,
