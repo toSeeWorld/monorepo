@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish-npm": "lerna publish",
-    "start": "lerna run serve --scope=@dingjia/childone"
+    "start": "lerna run serve --scope=@dingjia/childone",
+    "build":"lerna run build",
+    "install-all":"node ./scripts/install"
   },
   "keywords": [],
   "workspaces": [

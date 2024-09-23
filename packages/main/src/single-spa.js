@@ -1,5 +1,4 @@
 import { registerMicroApps, start } from 'qiankun'
-import childone from 'childone'
 registerMicroApps([
     {
         name: "vue -app",
