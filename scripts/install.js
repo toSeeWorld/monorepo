@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { execSync } = require('child_process');
+const { execSync,fork,spawn,spawnSync, } = require('child_process');
 const path = require('path');
 
 // 获取当前目录下的所有子目录
