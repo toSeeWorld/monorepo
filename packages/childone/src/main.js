@@ -14,6 +14,7 @@ const render = (props) => {
   app.mount(container ? container.querySelector("#app") : '#app')
 
 }
+console.log('hhhhh')
 
 if (!window.__POWERED_BY_QIANKUN__) {
   render({ baseRoute: 'micro-vue' })
