@@ -19,7 +19,6 @@ if (!window.__POWERED_BY_QIANKUN__) {
   render({ baseRoute: 'micro-vue' })
 }
 
-console.log('change adkajkfdak,---->')
 
 export async function bootstrap() {
   console.log('react app bootstraped');
