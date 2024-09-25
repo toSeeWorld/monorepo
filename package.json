@@ -6,7 +6,7 @@
   "useWorkspaces": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-npm": "lerna publish",
+    "publish-npm": "lerna publish from-git",
     "start": "lerna run serve --scope=@dingjia/childone",
     "build":"lerna run build",
     "install-all":"node ./scripts/install"
