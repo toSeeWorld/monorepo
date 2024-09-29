@@ -18,7 +18,6 @@ const render = (props) => {
 if (!window.__POWERED_BY_QIANKUN__) {
   render({ baseRoute: 'micro-vue' })
 }
-console.log('change')
 
 
 export async function bootstrap() {
