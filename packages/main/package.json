@@ -1,6 +1,6 @@
 {
   "name": "@dingjia/main",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "scripts": {
     "serve": "set NODE_OPTIONS=--openssl-legacy-provider & vue-cli-service serve",
